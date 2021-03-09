@@ -1,0 +1,208 @@
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+         /*  Header Styling    */
+header {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #FBBB67;
+    width: 100%;
+    margin: 0px;
+
+}
+
+header img {
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-left: 5px;
+    
+}
+
+header h1 {
+    font-size: 40px;
+    letter-spacing: 15px;
+    color:#7A4B0D;
+}
+
+      
+
+            /* Navigation Styling */
+
+nav {
+    margin: 50px 30px;
+    text-align: center;
+}
+
+nav a {
+
+    padding-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color:#7A4B0D;
+}
+
+nav a:hover {
+    color:#FBBB67;
+}
+
+        
+
+      
+
+            /* Main Banner Styling */
+    
+main h2 {
+    color: #7A4B0D;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 60px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+figcaption {
+    padding-top: 10px;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 5px solid #da7e06;
+}
+
+img:hover {
+    border: 5px solid #FBBB67;
+}
+
+
+    
+
+        
+        /* Meeting's Section Styling */
+
+
+#meetings {
+    background-color:#FBBB67;
+}
+
+h2 {
+    color: #7A4B0D;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 70px;
+}
+
+ul {
+    text-align: center;
+    margin-top: 20px;
+    }
+    
+
+li {
+    display: block;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-decoration: underline;
+    }
+
+.calendar {
+    width: 350px;
+    height: auto;
+    border: 10px solid #70542E;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#meetings img:hover {
+    border: 10px solid #70542E;
+}
+
+.flex-container li {
+    padding-right: 50px;
+}
+
+
+
+
+
+
+    
+        /* Form Section Styling */    
+        
+input, 
+select {
+    width: 50%;
+    margin: 20px 20px;
+    padding: 10px 10px;
+}
+
+input[type=text] {
+    border: 2px solid  #70542E;
+    border-radius: 4px;
+  }
+
+form {
+    
+    text-align: center;
+    padding: 20px 20px;
+}
+#join {
+    box-sizing: border-box;
+    width: 50%;
+    border: 2px solid  #70542E;
+    margin-top: 30px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.submit {
+    background-color: #FBBB67;
+    border: 3px solid  #70542E;
+}
+
+
+
+        /* Footer Section Styling */
+    
+footer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #FBBB67;
+    width: 100%;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+footer p {
+    padding-right: 10px;
+}
+
+
+
+        
+    /* Media Queries */
+
+    @media only screen and (max-width: 930px) {
+        
+main figure {
+        flex-direction: column;
+        width: 100px;
+        height: auto;
+        }
+    }
+
+
